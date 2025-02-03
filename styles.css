@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.navigation-bar {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 40px;
+    padding: 5px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: auto;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+
+
+
