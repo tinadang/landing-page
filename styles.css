@@ -128,19 +128,32 @@ a,
     box-sizing: border-box;
     width: 800px;
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    justify-content: center;
+    gap: 40px;
 }
 
 .info-card {
     display: flex;
-    width: 150px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    box-sizing: border-box;
+    width: 170px;
+    height: 155px;
+    padding: 10px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 .info-text {
+    width: 170px;
+    font-size: 18px;
+    font-weight: 350;
     text-align: center;
-    width: 150px;
+    margin-top: 10px;
 }
 
 .quote-section {
