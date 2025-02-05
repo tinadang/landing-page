@@ -192,7 +192,7 @@ a,
 
 .call-to-action {
     padding: 0px 100px;
-    margin: 100px;
+    margin: 100px 0px;
     border-radius: 10px;
     display: flex;
     align-items: center;
